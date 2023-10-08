@@ -49,9 +49,6 @@ data class ResultsItem(
 	@field:SerializedName("popularity")
 	val popularity: Any? = null,
 
-	@field:SerializedName("vote_average")
-	val voteAverage: Int? = null,
-
 	@field:SerializedName("id")
 	val id: Int? = null,
 
