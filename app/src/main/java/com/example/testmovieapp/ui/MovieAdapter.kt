@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.testmovieapp.R
 import com.example.testmovieapp.databinding.ItemMovieBinding
-import com.example.testmovieapp.remote.ResultsItem
+import com.example.testmovieapp.data.remote.ResultsItem
 import kotlin.math.min
 
 class MovieAdapter(private val movies: List<ResultsItem>) :

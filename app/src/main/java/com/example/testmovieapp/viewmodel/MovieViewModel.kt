@@ -5,8 +5,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.testmovieapp.api.ApiConfig
-import com.example.testmovieapp.remote.MovieResponse
-import com.example.testmovieapp.remote.ResultsItem
+import com.example.testmovieapp.data.remote.MovieResponse
+import com.example.testmovieapp.data.remote.ResultsItem
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
